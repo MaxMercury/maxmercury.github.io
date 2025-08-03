@@ -1,0 +1,43 @@
+.flex-contents{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading{
+    margin-top: 60px; /*todo: make this more dynamic*/
+}
+
+.chapter{
+    border: 1px solid black;
+    width: 100%;
+    justify-items: center; /*this is for google chrome*/
+    display: grid; /*this is for firefox*/
+}
+
+#nav-bar{
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.about-contents{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-desc{
+    border: 1px solid blue;
+
+}
+
+.profile-pic{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+}
